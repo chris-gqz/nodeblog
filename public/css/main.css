@@ -1,0 +1,393 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select,img{margin: 0;padding: 0;}
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse:collapse ;}
+input,textarea{outline: none;}
+textarea{resize: none;overflow: auto;}
+body{font-size:12px;font-family: "微软雅黑";}
+
+
+body{
+	background-color: #e9e9e9;
+}
+
+
+/*头部*/
+header{
+	width: 100%;
+	height: 320px;
+	background: url(/public/img/bg.jpg) no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+header div{
+	width: 175px;
+	height: 89px;
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
+	background: url(/public/img/logo3.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+
+/*导航栏*/
+nav{
+	position: relative;
+	top: 320px;
+	width: 100%;
+	height: 40px;
+	background-color: #ffffff;
+}
+
+nav .menu a:hover{
+	padding-bottom:12px;
+	border-bottom: 2px solid orange;
+}
+
+.menu{
+	width: 722px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav .menu a{
+	font-size: 12px;
+	line-height: 40px;
+	margin-right: 45px;
+	color: blue;
+}
+
+nav  .focus{
+	padding-bottom:12px;
+	border-bottom: 2px solid orange;
+}
+
+/*主要内容部分*/
+main {
+	position: relative;
+	top: 365px;
+	margin: 0 auto;
+	width: 820px;
+}
+
+.mainLeft{
+	float: left;
+}
+.mainRight{
+	position: absolute;
+	right: 250px;
+}
+
+.listBox{
+	width: 530px;
+	height: 220px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.listBox h1 {
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+.rightBox{
+	width: 280px;
+	height: 175px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.colDefault{
+	font-size: 8px;
+	text-align: center;
+	position: relative;
+	top: 45px;
+}
+.colInfo{
+	color: #48aac0;
+}
+main dfn p{
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+main dfn h2{
+	position: relative;
+	top: 55px;
+	left: 20px;
+}
+.function a{
+	width: 80px;
+	height: 35px;
+	background-color: #e57b20;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	font-size:8px ;
+	float: left;
+    position: absolute;
+    left: 20px;
+    margin-top: 75px;
+}
+
+.pager{
+	width: 530px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+}
+.pager ul li{
+	display: inline-block;
+	line-height: 40px;
+
+}
+.pager .previous{
+	position: absolute;
+	left: 10px;
+}
+.pager li {
+	position: absolute;
+	left: 260px;
+}
+.pager .next {
+	position: absolute;
+	left: 460px;
+}
+
+
+/*右边栏*/
+.mainRight{
+	display: block;
+}
+/*管理员*/
+#admin{
+	position: absolute;
+}
+#admin .title span{
+	position: absolute;
+	font-size: 14px;
+	left: 25px;
+	top: 20px;
+}
+#adminname{
+	position: absolute;
+	left: 25px;
+	top: 50px;
+}
+.info{
+	position: absolute;
+	left: 25px;
+	top: 75px;
+	color: red;
+}
+#logoutBtn{
+	position: absolute;
+	left: 25px;
+	top: 100px;
+}
+
+/*登录页面*/
+#loginBox{
+	position: absolute;
+}
+#loginBox .title span{
+		position: absolute;
+	font-size: 14px;
+	left: 25px;
+	top: 20px;
+}
+#loginBox .line1{
+	position: absolute;
+	left:25px;
+	top: 50px;
+}
+#loginBox .line2{
+	position: absolute;
+	left: 37px;
+	top: 80px;
+}
+#loginBox .line3 button{
+	position: absolute;
+	width: 160px;
+	height: 23px;
+	left: 69px;
+	top: 114px;
+	background-color: #e67d23;
+	color: white;
+}
+#loginBox .line4{
+	position: absolute;
+	left:135px ;
+	top: 147px;
+}
+/*注册页面*/
+#registerBox{
+	position: absolute;
+	height: 220px;
+}
+#registerBox .title span{
+	position: absolute;
+	font-size: 14px;
+	left: 25px;
+	top: 20px;
+}
+#registerBox .line1{
+	position: absolute;
+	left: 25px;
+  top: 50px;
+}
+#registerBox .line2{
+	position: absolute;
+	left: 37px;
+    top: 80px;
+}
+#registerBox .line3{
+	position: absolute;
+	left: 37px;
+    top: 105px;
+}
+#registerBox .line4 button{
+	position: absolute;
+	width: 160px;
+	height: 23px;
+	left: 69px;
+	top: 133px;
+	background-color: #e67d23;
+	color: white;
+}
+#registerBox .line5{
+	position: absolute;
+	left: 135px;
+	top: 185px;
+}
+
+/*社区*/
+#community {
+	position:absolute;
+	height: 110px;
+	top: 240px;
+
+}
+#community .title span{
+		position: absolute;
+	font-size: 14px;
+	left: 25px;
+	top: 20px;
+}
+#community p #pa1{
+	position: absolute;
+	left: 25px;
+	top: 55px;
+	color: red;
+}
+#community p #pa2{
+	position: absolute;
+	left: 25px;
+	top: 75px;
+	color: red;
+}
+/*评论*/
+.mainLeft .listBox {
+	background: #fff;
+	width: 460px;
+	padding: 20px 35px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.mainLeft .listBox .textLeft{
+	text-align: left;
+}
+
+.mainLeft .listBox .em{
+	font-size: 12px;
+	float: right;
+}
+
+.mainLeft .listBox .clear:after,
+.mainLeft .listBox .clear:before {
+	content: "";
+	display: table;
+}
+
+.mainLeft .listBox .clear:after {
+	clear: both;
+}
+
+.mainLeft .listBox .clear {
+	*zoom: 1;
+}
+
+.mainLeft .message .submit {
+	margin-top: -1px;
+	float: left;
+	padding: 10px;
+	width: 76px;
+	height: 72px;
+	background: #1F89bf;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	float: right;
+}
+.mainLeft .listBox .bgDanger {
+	background-color: #f76447!important;
+	color: #FFF;
+}
+.mainLeft .listBox .pager {
+	padding: 20px;
+	margin-bottom: 30px;
+	background: #fff;
+}
+.mainLeft .listBox .pager ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.mainLeft .listBox .pager ul li {
+	display: inline;
+}
+.mainLeft .listBox .pager ul li a {
+	text-decoration: none;
+	color: #333;
+}
+.mainLeft .listBox .pager .previous>a,.mainLeft .listBox .pager .previous>span {
+	float: left;
+}
+.mainLeft .listBox .pager .next>a,.mainLeft .listBox .pager .next>span {
+	float: right;
+}
+
+.mainLeft .listBox .zmouseP{
+	margin: 10px 0px;
+}
+.mainLeft .listBox  #messageContent{
+	float: left;
+	padding: 10px;
+	width:362px;
+	height: 48px;
+	border: 1px solid #1F89bf;
+	outline: 0;
+	resize: none;
+}
+.mainLeft .listBox .nomessage{
+	float: left;
+	margin: 10px 0;
+}
+
+.messageList .fl{
+	float: left;
+}
+.messageList .fr{
+	float:right;
+}
+.listBox .pager{
+	left: 0px;
+	margin-top: 28px;
+}
